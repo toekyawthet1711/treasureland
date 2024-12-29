@@ -28,6 +28,7 @@ abstract class Routes {
   static const SAVED_BOOKS = _Paths.SAVED_BOOKS;
   static const CHANGE_PASSWORD = _Paths.CHANGE_PASSWORD;
   static const CONTACT_US = _Paths.CONTACT_US;
+  static const TOTAL_POINT = _Paths.TOTAL_POINT;
 }
 
 abstract class _Paths {
@@ -57,4 +58,5 @@ abstract class _Paths {
   static const SAVED_BOOKS = '/saved-books';
   static const CHANGE_PASSWORD = '/change-password';
   static const CONTACT_US = '/contact-us';
+  static const TOTAL_POINT = '/total-point';
 }

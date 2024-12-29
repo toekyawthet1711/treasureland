@@ -50,6 +50,8 @@ import '../modules/signup/bindings/signup_binding.dart';
 import '../modules/signup/views/signup_view.dart';
 import '../modules/splashscreen/bindings/splashscreen_binding.dart';
 import '../modules/splashscreen/views/splashscreen_view.dart';
+import '../modules/totalPoint/bindings/total_point_binding.dart';
+import '../modules/totalPoint/views/total_point_view.dart';
 
 part 'app_routes.dart';
 
@@ -183,6 +185,11 @@ class AppPages {
       name: _Paths.CONTACT_US,
       page: () => const ContactUsView(),
       binding: ContactUsBinding(),
+    ),
+    GetPage(
+      name: _Paths.TOTAL_POINT,
+      page: () => const TotalPointView(),
+      binding: TotalPointBinding(),
     ),
   ];
 }
